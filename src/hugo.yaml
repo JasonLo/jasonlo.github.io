@@ -6,25 +6,23 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: 👋 I am Jason.
-    Content: A full-stack Machine Learning Engineer, a professional builder, breaker, and fixer of things!
+    Content: A full-stack Data Scientist / Machine Learning Engineer, a professional 🛠️ builder, 🧨 breaker, and 🔬 fixer of things!
 
   socialIcons:
     - name: GitHub
       url: https://github.com/JasonLo
-    - name: Twitter
-      url: https://twitter.com/JasonLoCM
     - name: googlescholar
       url: https://scholar.google.com/citations?user=84y-HKEAAAAJ&hl=en
+    - name: Twitter
+      url: https://twitter.com/JasonLoCM
 
   ShowCodeCopyButtons: true
 
-menu:
-  main:
-    - identifier: projects
-      name: projects
-      url: /projects/
-      weight: 10
-    - identifier: papers
-      name: papers
-      url: /papers/
-      weight: 20
+# menu:
+#   main:
+#     - identifier: projects
+#       name: projects
+#       url: /projects/
+#     - identifier: papers
+#       name: papers
+#       url: /papers/
