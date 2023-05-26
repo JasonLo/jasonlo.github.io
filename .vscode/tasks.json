@@ -7,22 +7,16 @@
             "label": "Serve Drafts",
             "type": "shell",
             "command": "hugo server -D -s ./src",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "isBackground": true,
-            "problemMatcher": []
         },
         {
             "label": "Build",
             "type": "shell",
             "command": "hugo -s ./src",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
+        },
+        {
+            "label": "Merge",
+            "type": "shell",
+            "command": "git checkout main && git merge --squash dev",
         }
     ]
 }
