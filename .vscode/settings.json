@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "bungcip"
+    ],
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/ci.yml"
     ]
 }

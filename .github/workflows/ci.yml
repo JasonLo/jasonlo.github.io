@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         submodules: 'recursive'
-        token: ${{ secrets.MY_SECRET }}   # <<if needed for private repos>>
+        # token: ${{ secrets.MY_SECRET }}   # <<if needed for private repos>>
         fetch-depth: '0'
         # <<fetch-depth: '0' currently required until shallow clone problems are solved>>
         
