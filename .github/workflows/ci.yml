@@ -33,9 +33,3 @@ jobs:
         full_rebuild: true
         commit_message: "Auto daily build."
 
-
-    - name: Check if new build was made
-      if: steps.build.outputs.was_new_build_created == 'true'
-      run: echo "YAAASSSS new build."
-      if: steps.build.outputs.was_new_build_created == 'false'
-      run: echo "NOOOOOOO new build."
