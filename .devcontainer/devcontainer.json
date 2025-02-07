@@ -5,7 +5,7 @@
 		"args": {
 			"VARIANT": "hugo",
 			"VERSION": "latest",
-			"NODE_VERSION": "14"
+			"NODE_VERSION": "22"
 		}
 	},
 	"customizations": {
